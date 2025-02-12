@@ -57,7 +57,7 @@ fun HabitTrackerScreen() {
             TextField(
                 value = habitName.value,
                 onValueChange = { habitName.value = it },
-                label = { Text("Nuevo Hábito") },
+                label = { Text("Nuevo hábito") },
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true
             )
